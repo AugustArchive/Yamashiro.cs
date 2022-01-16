@@ -1,0 +1,16 @@
+﻿[*.cs]
+
+# CS0168: Variable is declared but never used
+dotnet_diagnostic.CS0168.severity = none
+
+# CS1998: Async method lacks 'await' operators and will run synchronously
+dotnet_diagnostic.CS1998.severity = none
+
+# IDE0059: Unnecessary assignment of a value
+csharp_style_unused_value_assignment_preference = discard_variable:none
+
+# IDE0022: Use block body for methods
+csharp_style_expression_bodied_methods = true:silent
+
+# IDE0040: Add accessibility modifiers
+dotnet_style_require_accessibility_modifiers = always:silent
